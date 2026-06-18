@@ -132,7 +132,7 @@ function WeatherForecast() {
 
           <div className="w-full bg-black/5 backdrop-blur-[5px] px-4 py-1  rounded-3xl shadow-md shadow-gray-500">
               <h3 className="font-semibold text-white mb-3">Sun Cycle</h3>
-              <div className="mr-[1px] h-[90px] bg-cover" style={{backgroundImage:`url(${SunArc})`}}></div>
+              <div className="mr-[1px] h-[90px] bg-cover bg-center" style={{backgroundImage:`url(${SunArc})`}}></div>
               <div className="w-full flex justify-between py-2 px-1 mb-2">
                 <h2 className="text-xs text-center">Sun Rise
                     <p className="font-semibold text-[16px]">{sunRise}</p>
