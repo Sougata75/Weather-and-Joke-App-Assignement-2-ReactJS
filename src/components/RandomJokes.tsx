@@ -28,8 +28,8 @@ function RandomJokes() {
     },[count]);
   return (
     <>
-    <div className="w-full md:h-[100vh] flex justify-center items-center  bg-gray-900">
-        <div className="w-[400px] h-[650px] p-12 flex flex-wrap justify-center bg-cover bg-center bg-black md:rounded-3xl gap-16" style={{backgroundImage:`url(${bgImg})`}}>
+    <div className="w-full md:h-[100vh] flex justify-center md:items-center  bg-gray-900">
+        <div className="w-[400px] h-[670px] md:h-[650px] p-12 flex flex-wrap justify-center bg-cover bg-center bg-black md:rounded-3xl gap-16" style={{backgroundImage:`url(${bgImg})`}}>
             <h1 className="text-white text-3xl font-black txtShadow">Want Some Jokes</h1>
             <div className="w-full h-[250px] p-5 bg-black/10 backdrop-blur-md flex flex-wrap gap-y-4 rounded-xl">
             {loading? (

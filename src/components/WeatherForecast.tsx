@@ -58,8 +58,8 @@ function WeatherForecast() {
 
   return (
     <>
-        <div className="md:h-[100vh] bg-gray-900 flex justify-center items-center">
-        <div className="w-[400px] h-[650px] bg-white p-6 md:rounded-3xl bg-cover bg-bottom overflow-y-scroll noBar" style={{backgroundImage:`url(${BgImg})`}}>
+        <div className="h-full md:h-[100vh] bg-gray-900 flex justify-center md:items-center">
+        <div className="w-[400px] h-[670px] md:h-[650px] bg-white p-6 md:rounded-3xl bg-cover bg-bottom overflow-y-scroll noBar" style={{backgroundImage:`url(${BgImg})`}}>
           <div className="w-full flex flex-nowrap">
             <div className="w-[50%]">
             <h2 className={`${isLoading ? "text-lg":"text-2xl"} font-semibold text-white txtShadow mb-2`}>
