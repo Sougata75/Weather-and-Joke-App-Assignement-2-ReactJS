@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState , useEffect } from "react";
 import type { WeatherType } from "../typescript/interface/interface";
+import BgImg from '../assets/bgImg.jpg';
 
 
 function WeatherForecast() {
@@ -58,7 +59,7 @@ function WeatherForecast() {
   return (
     <>
         <div className="md:h-[100vh] bg-gray-900 flex justify-center items-center">
-        <div className="w-[400px] h-[650px] bg-white p-6 md:rounded-3xl bg-[url('.\assets\bgImg.jpg')] bg-cover bg-bottom overflow-y-scroll noBar">
+        <div className="w-[400px] h-[650px] bg-white p-6 md:rounded-3xl bg-cover bg-bottom overflow-y-scroll noBar" style={{backgroundImage:`url(${BgImg})`}}>
           <div className="w-full flex flex-nowrap">
             <div className="w-[50%]">
             <h2 className={`${isLoading ? "text-lg":"text-2xl"} font-semibold text-white txtShadow mb-2`}>
